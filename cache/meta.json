@@ -1,0 +1,71 @@
+{
+    "TIME_SERIES_DAILY": {},
+    "TIME_SERIES_DAILY_ADJUSTED": {
+        "IWV": {
+            "1. Information": "Daily Time Series with Splits and Dividend Events",
+            "2. Symbol": "IWV",
+            "3. Last Refreshed": "2020-01-06 09:47:26",
+            "4. Output Size": "Full size",
+            "5. Time Zone": "US/Eastern"
+        },
+        "SPY": {
+            "1. Information": "Daily Time Series with Splits and Dividend Events",
+            "2. Symbol": "SPY",
+            "3. Last Refreshed": "2020-01-06 09:47:31",
+            "4. Output Size": "Full size",
+            "5. Time Zone": "US/Eastern"
+        },
+        "QQQ": {
+            "1. Information": "Daily Time Series with Splits and Dividend Events",
+            "2. Symbol": "QQQ",
+            "3. Last Refreshed": "2020-01-06 09:47:35",
+            "4. Output Size": "Full size",
+            "5. Time Zone": "US/Eastern"
+        },
+        "OILU": {
+            "1. Information": "Daily Time Series with Splits and Dividend Events",
+            "2. Symbol": "OILU",
+            "3. Last Refreshed": "2020-01-06 09:47:26",
+            "4. Output Size": "Full size",
+            "5. Time Zone": "US/Eastern"
+        },
+        "AAPL": {
+            "1. Information": "Daily Time Series with Splits and Dividend Events",
+            "2. Symbol": "AAPL",
+            "3. Last Refreshed": "2020-01-06 09:48:03",
+            "4. Output Size": "Full size",
+            "5. Time Zone": "US/Eastern"
+        },
+        "GOOG": {
+            "1. Information": "Daily Time Series with Splits and Dividend Events",
+            "2. Symbol": "GOOG",
+            "3. Last Refreshed": "2020-01-06 09:48:14",
+            "4. Output Size": "Full size",
+            "5. Time Zone": "US/Eastern"
+        },
+        "AMD": {
+            "1. Information": "Daily Time Series with Splits and Dividend Events",
+            "2. Symbol": "AMD",
+            "3. Last Refreshed": "2020-01-06 09:48:18",
+            "4. Output Size": "Full size",
+            "5. Time Zone": "US/Eastern"
+        },
+        "NVDA": {
+            "1. Information": "Daily Time Series with Splits and Dividend Events",
+            "2. Symbol": "NVDA",
+            "3. Last Refreshed": "2020-01-06 09:48:03",
+            "4. Output Size": "Full size",
+            "5. Time Zone": "US/Eastern"
+        },
+        "CLVS": {
+            "1. Information": "Daily Time Series with Splits and Dividend Events",
+            "2. Symbol": "CLVS",
+            "3. Last Refreshed": "2020-01-06 09:48:13",
+            "4. Output Size": "Full size",
+            "5. Time Zone": "US/Eastern"
+        }
+    },
+    "TIME_SERIES_INTRADAY": {},
+    "FX_DAILY": {},
+    "DIGITAL_CURRENCY_DAILY": {}
+}

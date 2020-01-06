@@ -1,0 +1,50 @@
+{
+    "name": "T-Bill",
+    "source": "US Treasury",
+    "last saved": "2020-01-06 11:58:12",
+    "size": 591594,
+    "columns": [
+        [
+            "4 WEEKS",
+            "BANK DISCOUNT"
+        ],
+        [
+            "4 WEEKS",
+            "COUPON EQUIVALENT"
+        ],
+        [
+            "8 WEEKS",
+            "BANK DISCOUNT"
+        ],
+        [
+            "8 WEEKS",
+            "COUPON EQUIVALENT"
+        ],
+        [
+            "13 WEEKS",
+            "BANK DISCOUNT"
+        ],
+        [
+            "13 WEEKS",
+            "COUPON EQUIVALENT"
+        ],
+        [
+            "26 WEEKS",
+            "BANK DISCOUNT"
+        ],
+        [
+            "26 WEEKS",
+            "COUPON EQUIVALENT"
+        ],
+        [
+            "52 WEEKS",
+            "BANK DISCOUNT"
+        ],
+        [
+            "52 WEEKS",
+            "COUPON EQUIVALENT"
+        ],
+        "was_empty",
+        "valid_observation"
+    ]
+}
