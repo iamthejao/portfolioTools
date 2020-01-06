@@ -13,23 +13,7 @@ Insert alphavantage free key in the "alpha.key" file.
 
 run:
 python downloader.py json/nameoffile.json
-output:
-
-Using key:  KEYNUMBER
-Building ticker: TIME_SERIES_DAILY_ADJUSTED - IWV
-Wrong input format on mkDir, did not make. (Ignore this warning)
-Building ticker: TIME_SERIES_DAILY_ADJUSTED - SPY
-Wrong input format on mkDir, did not make.
-Building ticker: TIME_SERIES_DAILY_ADJUSTED - QQQ
-Wrong input format on mkDir, did not make.
-Building ticker: TIME_SERIES_DAILY_ADJUSTED - OILU
-Wrong input format on mkDir, did not make.
-Ready: 100.00%
-
-run:
 python series_handler.py json/nameoffile.json
-output:
-progress bar will show.
 
 The first command will download the timeseries and save it as json files
 The second command will read the saved files, calculate new columns as return & others and save as parquet files (used by the module)
@@ -38,5 +22,12 @@ The second command will read the saved files, calculate new columns as return & 
 
 In order to facilitate the tutorials, the timeseries are already downloaded in this repository.
 
-Please check notebook tutorials.
+Please check notebook tutorials for portfolio statistics, risk measures and backtest
 
+# How to use data from other sources (like BBG backtest)
+A notebook for reading excel and transforming into parquet file is provided along with the tutorials. The timeseries can then be loaded normally with the Portfolio class.
+
+# Portfolio Optimization
+The file portfolio_optimizer provides a parallel implementation of a population based meta-heuristic algorithm known as Particle Swarm Optimization. This algorithm provides robust results for the optimisation of multidimensional constrained functions. One of the functions implemented treats the portfolio selection + allocation problem as a single optimisation problem and is able to provide algorithmically picked portfolios that follow certain optimisation criteria and constraints.
+
+No tutorial notebook is provided yet given this would take more effort to explain and implement.
