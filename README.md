@@ -1,3 +1,6 @@
+# Last Update
+Fixed a bug inside the Parametric and NonParametric VAR function
+
 # Portfolio Tools
 
 Developed by Joao Augusto, under MIT Open License
