@@ -21,7 +21,7 @@ The second command will read the saved files, calculate new columns as return & 
 
 In order to facilitate the tutorials, the timeseries are already downloaded in this repository.
 
-Please check notebook tutorials for portfolio statistics, risk measures and backtest
+Please check notebook tutorials for portfolio statistics, risk measures and backtest. I recommend first checking the Portfolio Tutorial Notebook.
 
 # How to use data from other sources (like BBG backtest)
 A notebook for reading excel and transforming into parquet file is provided along with the tutorials. The timeseries can then be loaded normally with the Portfolio class.
