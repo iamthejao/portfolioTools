@@ -217,7 +217,10 @@ class Portfolio:
         fig, ax = plt.subplots(figsize=(13, 7))
         returns = self.pReturn['return']
         percentile = np.percentile(returns, p)
-        esf = returns[returns < percentile].mean()
+        if p > 50:
+            esf = returns[returns > percentile].mean()
+        else:
+            esf = returns[returns < percentile].mean()
         distplot(returns, ax=ax, norm_hist=False)
         ax.plot([percentile, percentile], [0,len(returns)/10],'r--',linewidth=2.0)
         ax.set_title("Distribution of Returns\n From {0} to {1}".format(self.pReturn.index[0].to_pydatetime().date(),self.pReturn.index[-1].to_pydatetime().date()))
@@ -240,7 +243,10 @@ class Portfolio:
         returns = np.random.randn(5000) * std + mean
 
         percentile = np.percentile(returns, p)
-        esf = returns[returns < percentile].mean()
+        if p > 50:
+            esf = returns[returns > percentile].mean()
+        else:
+            esf = returns[returns < percentile].mean()
         distplot(returns, ax=ax, norm_hist=False)
         ax.plot([percentile, percentile], [0, len(original)/10], 'r--', linewidth=2.0)
         ax.set_title("Normal parametric distribution of Returns\n From {0} to {1}".format(self.pReturn.index[0].to_pydatetime().date(),self.pReturn.index[-1].to_pydatetime().date()))
